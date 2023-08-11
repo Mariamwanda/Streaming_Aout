@@ -1,5 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,17 +12,17 @@ body {
   justify-content: center;
   background: #f0faff;
 }
-.wrapper {
+.container {
   position: relative;
   max-width: 470px;
   width: 100%;
   border-radius: 12px;
   padding: 20px 30px 120px;
-  background: #4070f4;
+  background:  #FFA07A;
   box-shadow: 0 5px 10px rgba( 0,0,0,0.1);
   overflow: hidden;
 }
-.form.login {
+.form.connexion {
   position: absolute;
   left: 50%;
   bottom: -86%;
@@ -35,37 +34,32 @@ body {
   background: #fff;
   transition: all 0.6s ease;
 }
-.wrapper.active
-  .form.login {
+.container.active
+  .connexion {
   bottom: -15%;
   border-radius: 35%;
   box-shadow: 0 -5px
     10px rgba(0, 0, 0, 0.1);
 }
-.form
+.connexion
   header {
   font-size: 30px;
   text-align: center;
-  color: #fff;
+  color: black;
   font-weight: 600;
   cursor: pointer;
 }
-.form.login
-  header {
-  color: #333;
-  opacity: 0.6;
-}
-.wrapper.active
-  .form.login
+.container.active
+  .connexion
   header {
   opacity: 1;
 }
-.wrapper.active
-  .signup
+.container.active
+  .connexion
   header {
   opacity: 0.6;
 }
-.wrapper
+.container
   form {
   display: flex;
   flex-direction: column;
@@ -91,7 +85,7 @@ form
     solid
     #aaa;
 }
-.form.login
+.form.connexion
   input:focus {
   box-shadow: 0
     1px 0
@@ -132,9 +126,40 @@ form
   font-weight: 500;
   cursor: pointer;
 }
-.form.login
+.form.connexion
   input[type="submit"] {
   background: #4070f4;
   color: #fff;
   border: none;
+}
+
+form p{
+    color: white;
+    font-size: 20px;
+}
+
+.social{
+    margin: 20px;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.social p{
+    padding: 10px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+h4{
+    text-align: center;
+}
+
+.disegn{
+    border: 1px solid black;
+    height: 100px;
 }
