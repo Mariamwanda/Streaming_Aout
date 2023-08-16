@@ -141,7 +141,7 @@ input[type="checkbox"] {
 
 .bannière {
   width: 100%;
-  background: url("../Images/background.webp");
+  background: url("./../Images/background.webp");
   height: 845px;
   background-size: cover;
   margin-bottom: 165px;
