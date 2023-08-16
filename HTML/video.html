@@ -1,22 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>sons et videos</h1>
-    <!-- <audio controls="controls">
-      <source src="./Images/sons.mp3"  type="audio/mp3"/>
-      <h3>zyjuygèjh</h3>
-    </audio> -->
-    <div class="video-container">
-      <video controls>
-          <source src="./Images/second.mp4" type="video/mp4">
-          Votre navigateur ne prend pas en charge la vidéo.
-      </video>
-  </div>
+    <link rel="stylesheet" href="./../CSS/style.css" />
+    <link rel="stylesheet" href="./../CSS/video.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo"><span>Z</span>iNi_<span>V</span>ision</div>
+
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <div class="menu">
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/">A propos</a></li>
+
+          <li class="services">
+            <a href="/">Services</a>
+            <ul class="dropdown">
+              <li><a href="/">Conte Africain </a></li>
+              <li><a href="/">Europeens</a></li>
+              <li><a href="/">Du monde</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Contact</a></li>
+          <li>
+            <button><a href="./HTML/connexion.html">Connexion</a></button>
+          </li>
+        </div>
+      </ul>
+    </nav>
+    <div class="deoBannière"></div>
+    <h1>Instruis toi tout tant epanouissant&#128519 &#128519</h1>
+    <section>
+      <div class="video-container">
+        <video controls>
+          <source src="./../Images/second.mp4" type="video/mp4" />
+        </video>
+        <h4>Soundiata Keita <span>Le reveil du Lion.</span></h4>
+        <div class="icons">
+          <div class="iconBox">
+            <i class="fa-solid fa-download"></i>
+            <p>Telechargement</p>
+          </div>
+          <div class="iconBox">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <p>122 j'aime</p>
+          </div>
+          <div class="iconBox">
+            <i class="fa-solid fa-share-from-square"></i>
+            <p>Partage</p>
+          </div>
+        </div>
+        <div class="description">
+          <p>Vous souhaitez exprimer la force de vos sentiments à la personne qui partage votre vie,<br>
+           mais vous ne savez pas par où commencer pour rédiger un texte mignon, un message d'amour touchant.<br>
+          </p>
+        </div>
+      </div>
+      <div class="video-suite">
+        <video controls>
+          <source src="./../Images/second.mp4" type="video/mp4" />
+        </video>
+        <p>hj, bhrj,fgv</p>
+        <video controls>
+          <source src="./../Images/second.mp4" type="video/mp4" />
+        </video>
+        <p>hj, bhrj,fgv</p>
+        <video controls>
+          <source src="./../Images/second.mp4" type="video/mp4" />
+        </video>
+        <p>hj, bhrj,fgv</p>
+      </div>
+    </section>
+    <div class="commentaire">
+        <div class="utilisateur">
+          <div>
+            <img src="./../Images/homme.jpeg" alt="">
+          </div>
+          <div>
+            <p>hhhhchcjfbhjcvbfgrh</p>
+          </div>
+         
+        </div>
+    </div>
     
-</body>
+  </body>
 </html>
