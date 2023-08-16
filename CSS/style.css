@@ -25,7 +25,7 @@ li {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color:#C8C8C8;
+  background-color: #c8c8c8;
   color: #fff;
 }
 
@@ -37,7 +37,6 @@ li {
   font-size: 32px;
   font-family: Times, "Times New Roman", Georgia, serif;
   margin-left: 80px;
-  
 }
 
 .logo span {
@@ -49,10 +48,9 @@ li {
   display: flex;
   gap: 1em;
   font-size: 18px;
-  
 }
 
-.menu li button{
+.menu li button {
   border-radius: 5px;
   padding: 10px;
   border: none;
@@ -63,7 +61,6 @@ li {
   padding: 5px 14px;
   color: #322e2f;
 }
-
 
 .services {
   position: relative;
@@ -76,7 +73,7 @@ li {
   display: none;
   border-radius: 8px;
   top: 35px;
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 
 .dropdown li + li {
@@ -94,20 +91,18 @@ li {
 }
 .dropdown li a {
   font-size: 20px;
-  color: #C8C8C8;
+  color: #c8c8c8;
 }
 
 input[type="checkbox"] {
   display: none;
 }
 
-
 .hamburger {
   display: none;
   font-size: 24px;
   user-select: none;
 }
-
 
 @media (max-width: 768px) {
   .menu {
@@ -146,14 +141,12 @@ input[type="checkbox"] {
 
 .bannière {
   width: 100%;
-  background: url("/Images/background.webp");
+  background: url(../Images/background.webp);
   height: 845px;
   background-size: cover;
   margin-bottom: 165px;
   background-position: left;
 }
-
-
 
 .bannière .flotant {
   color: white;
@@ -161,7 +154,7 @@ input[type="checkbox"] {
   width: 50%;
   top: 60vh;
   height: 380px;
-  background-color: #C8C8C8;
+  background-color: #c8c8c8;
   left: 25%;
 }
 
@@ -170,7 +163,7 @@ input[type="checkbox"] {
   color: #322e2f;
 }
 
-.flotant p{
+.flotant p {
   font-family: sans-serif;
   text-align: center;
   font-size: 30px;
@@ -178,23 +171,23 @@ input[type="checkbox"] {
   padding-top: 50px;
 }
 
-.flotant button{
+.flotant button {
   border: none;
   font-size: 1.2rem;
-  color: #C8C8C8;
+  color: #c8c8c8;
   padding: 10px;
   width: 20%;
   height: 50px;
   margin-left: 20vw;
   background-color: #322e2f;
 }
-.MesGrid{
+.MesGrid {
   width: 100%;
   height: 100px;
   background-color: aquamarine;
 }
 
-.MesGrid h5{
+.MesGrid h5 {
   text-align: center;
-  font-size: 30px;
+  font-size: 7rem;
 }
