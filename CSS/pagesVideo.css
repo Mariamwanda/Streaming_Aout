@@ -32,3 +32,13 @@
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
+
+.texte p {
+  padding-bottom: 20px;
+}
+
+.texte h1 {
+  margin: 20px;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
