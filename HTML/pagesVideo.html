@@ -1,36 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/Images/logo.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Images/logo.png" type="image/x-icon" />
     <title>PagesVideo</title>
-</head>
-<body>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/pagesVideo.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo"><span>Z</span>iNi_<span>V</span>ision</div>
-       
-        <ul class="nav-links">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <div class="menu">
-            <li><a href="/">Accueil</a></li>
-            <li><a href="/">A propos</a></li>
-  
-            <li class="services">
-              <a href="/">Contes</a>
-              <ul class="dropdown">
-                <li><a href="/">Conte Africain</a></li>
-                <li><a href="/">Europeens</a></li>
-                <li><a href="/">Du monde</a></li>
-              </ul>
-            </li>
-            <li><a href="/">Contact</a></li>
-            <li><a href="./HTML/connexion.html">Connexion</a></li>
-          </div>
-        </ul>
-      </nav>
+      <div class="logo"><span>Z</span>iNi_<span>V</span>ision</div>
 
-    
-</body>
+      <ul class="nav-links">
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <div class="menu">
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/">A propos</a></li>
+
+          <li class="services">
+            <a href="/">Contes</a>
+            <ul class="dropdown">
+              <li><a href="/">Conte Africain</a></li>
+              <li><a href="/">Europeens</a></li>
+              <li><a href="/">Du monde</a></li>
+            </ul>
+          </li>
+          <li><a href="/">Contact</a></li>
+          <li><a href="./HTML/connexion.html">Connexion</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div id="Apropos">
+      <div class="header">
+        <h1>Chania</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-3 menu">
+          <ul>
+            <img src="./../Images/logo.png" alt="" />
+          </ul>
+        </div>
+
+        <div class="col-9">
+          <h1>The City</h1>
+          <p>
+            Chania is the capital of the Chania region on the island of Crete.
+            The city can be divided in two parts, the old town and the modern
+            city.
+          </p>
+          <p>
+            Resize the browser window to see how the content respond to the
+            resizing.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="texe">
+        <div class="partie">
+          <h2>Slogan</h2>
+
+          <p>
+            “La vie ressemble à un conte;<br />
+            ce qui importe, ce n'est pas sa longueur,<br />
+            mais sa valeur.” “Vivre au Canada, c'est <br />
+            vivre dans quatre pays différents... <br />
+            un pays par saison.” “Il n'existe que <br />
+            des contes de fées sanglants. Tout conte <br />
+            de fées est issu des profondeurs du sang <br />
+            et de la peur.”
+          </p>
+        </div>
+        <div class="partie">
+          <h2>Contes</h2>
+          <ul>
+            <li><a href="">* Africains</a></li>
+            <hr />
+            <li><a href="">* Europeens</a></li>
+            <hr />
+            <li><a href="">* Du monde</a></li>
+            <hr />
+          </ul>
+        </div>
+
+        <div class="partie">
+          <h2>Services</h2>
+          <p>entrez votre message?</p>
+          <input type="text" />
+          <button>envoyer</button>
+        </div>
+      </div>
+      <div class="social">
+        <p><i class="fab fa-google"></i></p>
+        <p><i class="fab fa-youtube"></i></p>
+        <p><i class="fab fa-facebook"></i></p>
+        <p><i class="fab fa-twitter"></i></p>
+      </div>
+      <hr style="width: 50%; margin: auto; color: black" />
+      <p>&copy; 2023 Streaming. ZiNi_Vision.</p>
+    </footer>
+  </body>
 </html>
