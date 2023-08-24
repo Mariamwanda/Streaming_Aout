@@ -10,30 +10,29 @@
   </head>
   <body>
     <nav class="navbar">
-      <div class="logo"><span>Z</span>iNi_<span>V</span>ision</div>
+      <div class="logo"><a href=""><span>Z</span>iNi_<span>V</span>ision</a></div>
      
       <ul class="nav-links">
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class="menu">
           <li><a href="">Accueil</a></li>
-          <li><a href="/">A propos</a></li>
+          <li><a href="#Apropos">A propos</a></li>
 
           <li class="services">
             <a href="/">Contes</a>
             <ul class="dropdown">
-              <li><a href="/">Conte Africain</a></li>
+              <li><a href="./HTML/pagesVideo.html">Conte Africain</a></li>
               <li><a href="/">Europeens</a></li>
               <li><a href="/">Du monde</a></li>
             </ul>
           </li>
-          <li><a href="/">Contact</a></li>
           <li><a href="./HTML/connexion.html">Connexion</a></li>
         </div>
       </ul>
     </nav>
     <div class="bannière">
-      <h1>La vie ressemble à un conte</h1>
+      <h1><span>La vie,</span>ressemble à un conte...</h1>
       <div class="flotant">
         <p><span>Z</span>iNi_<span>V</span>ision,Avec vous
         <p>Pour voir plus Loin,au déla de vos attentes...</p>
@@ -41,9 +40,62 @@
         <button type="button">Voir Plus</button>
       </div>
     </div>
-   <div class="MesGrid">
-      <h5>Plusieurs Diversités</h5>
+    <div id="Apropos">
+      <div class="header">
+        <h1>Qui sommes-nous?</h1>
+      </div>
+
+      <div class="display">
+        <div class="col-3 menu">
+         <video controls>
+            <source src="./../Images/second.mp4" type="video/mp4">
+         </video>
+        </div>
+
+        <div class="texte">
+          <h1>A propos de Nous</h1> 
+          <p>
+            <span>Z</span>iNi_<span>V</span>ision Vous cherchez des histoires célèbres,
+             ces connus connues dont on a oublié l'auteur, mais que tout le monde
+             connaît ?
+            <br />
+            <p>Les histoires célèbres traversent les époques et restent gravées
+              dans nos mémoires, au grand bonheur des utilisateurs qui
+              égrènent leur passe temps de d'histoire bien choisies...</p>
+          </p>
+          <p>
+            Nous vous avons concocté une liste de ces belles histoires profondes,
+            et cette fois plus d'excuse, vous devriez vous en souvenir ! &#128522
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <div class="Categorie">
+    <div class="header">
+      <h1>Services</h1>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <img src="./Images/africain.jpeg" alt="" />
+        <h1>Africains</h1>
+        <button><a href="./HTML/pagesVideo.html"> Voir plus <i class="fa-solid fa-plus"></i></a></button>
+      </div>
+      <div class="card">
+        <img src="./Images/europeen.jpeg" alt="" />
+        <h1>Europeens</h1>
+        <button><a href=""> Voir plus <i class="fa-solid fa-plus"></i></a></button>
+      </div>
+      <div class="card">
+        <img src="./Images/monde.jpeg" alt="" />
+        <h1>Monde</h1>
+        <button><a href=""> Voir plus <i class="fa-solid fa-plus"></i></a></button>
+      </div>
    </div>
+  </div>
  
 <footer class="footer">
   <div class="texe">
@@ -54,10 +106,7 @@
       ce qui importe, ce n'est pas sa longueur,<br>
       mais sa valeur.” “Vivre au Canada, c'est <br>
       vivre dans quatre pays différents... <br>
-      un pays par saison.” “Il n'existe que <br>
-      des contes de fées sanglants. Tout conte <br>
-      de fées est issu des profondeurs du sang <br>
-      et de la peur.”
+      un pays par saison.”
     </p>
     </div>
     <div class="partie">
@@ -75,7 +124,7 @@
     <div class="partie">
       <h2>Services</h2>
       <p>entrez votre message?</p>
-      <input type="text">
+      <input type="text" placeholder="ecrit...">
       <button>envoyer</button>
     </div>
   </div>

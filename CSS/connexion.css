@@ -10,10 +10,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-.container {
+.form {
   position: relative;
-  max-width: 470px;
-  width: 100%;
+  max-width: 100%;
+  width: 25%;
   border-radius: 12px;
   padding: 20px 30px 120px;
   background: rgba(155, 224, 201, 0.868);
@@ -32,7 +32,7 @@ body {
   background: #c8c8c8;
   transition: all 0.6s ease;
 }
-.container.active .connexion {
+.form.active .connexion {
   bottom: -15%;
   border-radius: 35%;
   box-shadow: 0 -5px 10px #322e2f;
@@ -44,13 +44,13 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
-.container.active .connexion header {
+.form.active .connexion header {
   opacity: 1;
 }
-.container.active .connexion header {
+.form.active .connexion header {
   opacity: 0.6;
 }
-.container form {
+.form form {
   display: flex;
   flex-direction: column;
   gap: 20px;
