@@ -12,23 +12,13 @@
   <body>
     <div class="container">
           <nav class="navbar">
-            <div class="logo"><a href=""><span>Z</span>iNi_<span>V</span>ision</a></div>
+            <div class="logo"><a href="/index.html"><span>Z</span>iNi_<span>V</span>ision</a></div>
             <ul class="nav-links">
               <input type="checkbox" id="checkbox_toggle" />
               <label for="checkbox_toggle" class="hamburger">&#9776;</label>
       
               <div class="menu">
                 <li><a href="/">Accueil</a></li>
-                <li><a href="/">A propos</a></li>
-      
-                <li class="services">
-                  <a href="/">Contes</a>
-                  <ul class="dropdown">
-                    <li><a href="/">Conte Africain </a></li>
-                    <li><a href="/">Europeens</a></li>
-                    <li><a href="/">Du monde</a></li>
-                  </ul>
-                </li>
                 <li>
                   <a href="./HTML/connexion.html">Connexion</a>
                 </li>
@@ -37,6 +27,18 @@
           </nav>
          
           <div class="main">
+            <div class="container">
+              <div class="main">
+                <div class="topbar">
+                  <div class="search">
+                    <label>
+                      <input type="text" placeholder="recherche..." />
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
         <div class="pagesVideo">
           <div class="titre">
             <h1>Les contes de chez Nous</h1>
@@ -118,36 +120,35 @@
           </div>
         </div>
           </div>
-          <footer class="footer">
-            <div class="texe">
-              <div class="partie">
-                <h2>Slogan</h2>
-                
-               <p>“La vie ressemble à un conte;<br>
-                ce qui importe, ce n'est pas sa longueur,<br>
-                mais sa valeur.” “Vivre au Canada, c'est <br>
-                vivre dans quatre pays différents... <br>
-                un pays par saison.”
-              </p>
-              </div>
-              <div class="partie">
-                <h2>Contes</h2>
+          <footer>
+            <div class="mesChamps">
+    
+              <div class="services">
+                <h3>Partenariat</h3>
                 <ul>
-                  <li><a href="">* Africains</a></li>
-                  <hr>
-                  <li><a href="">* Europeens</a></li>
-                  <hr>
-                  <li><a href="">*  Du monde</a></li>
-                  <hr>
+                  <li><a href="">* Netflix</a></li>
+                  <li><a href="">* Youtube</a></li>
+                  <li><a href="">* Canal +</a></li>
+                  <li><a href="">*  A+Ivoire</a></li>
                 </ul>
-              </div>
-              
-              <div class="partie">
-                <h2>Services</h2>
+             </div>
+             <div class="services">
+              <h3>Nos Contes</h3>
+              <ul>
+                <li><a href="">* Africains</a></li>
+                <li><a href="">* Europeens</a></li>
+                <li><a href="">*  Du monde</a></li>
+               
+              </ul>
+             </div>
+            <div class="contact">
+                <h3>Contactez-nous</h3>
                 <p>entrez votre message?</p>
-                <input type="text" placeholder="ecrit...">
-                <button>envoyer</button>
-              </div>
+                <form action="#">
+                    <input type="email" placeholder="Votre email">
+                    <button type="submit">Envoyer</button>
+                </form>
+            </div>
             </div>
             <div class="social">
               <p><i class="fab fa-google"></i></p>
@@ -155,10 +156,9 @@
               <p><i class="fab fa-facebook"></i></p>
               <p><i class="fab fa-twitter"></i></p>
           </div>
-            <hr style="width: 50%; margin: auto; color: black;">
-            <p>&copy; 2023 Streaming. ZiNi_Vision.</p>
-          </footer>
-
+          <p class="copy">&copy; 2023 Streaming. ZiNi_Vision.</p>
+            
+        </footer>
     
 
   </body>
