@@ -194,7 +194,7 @@ input[type="checkbox"] {
   color: #928e8e;
 }
 
-.texte h1 {
+.menuO h1 {
   margin: 20px;
   font-size: 3rem;
   font-family: sans-serif;
@@ -216,7 +216,6 @@ input[type="checkbox"] {
 .display .menuO {
   width: 520px;
   margin: 20px;
-  border: 1px solid red;
 }
 
 .menuO video {
