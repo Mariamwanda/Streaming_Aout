@@ -3,35 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./Images/logo.png" type="image/x-icon" />
-    <title>Profil</title>
-    <link rel="stylesheet" href="/CSS/pagesVideo.css" />
+    <link rel="shortcut icon" href="/Images/logo.png" type="image/x-icon">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/profil.css                    " />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="/CSS/profil.css" />
   </head>
   <body>
-    <section>
-      <div class="container">
+    <div class="wrapper">
+      <div class="profile-top">
+        <div class="container"></div>
         <div class="main">
-          <div class="topbar">
-            <div class="search">
-              <label>
-                <input type="text" placeholder="recherche..." />
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </label>
-            </div>
+          <li><a href="/HTML/connexion.html">Deconnexion</a></li>
+        </div>
+        <div class="profile-image"></div>
+      </div>
+      <div class="profile-bottom">
+        <div class="profile-infos">
+          <div class="main-infos">
+            <h3 class="name">Mr.Wandaogo</h3>
+            <p class="age grey">Connecté(e)</p>
+          </div>
+          <br />
+          <p class="email">Wandaogo@gmail.com</p>
+          <p class="ville">
+            <i class="fa-solid fa-location-dot"></i> Cote d'ivoire
+          </p>
+        </div>
 
-            <div class="user">
-              <img src="../Images/homme.jpeg" alt="" />
-            </div>
+        <div class="profile-stats">
+          <div class="stat-item">
+            <p class="stat">300</p>
+            <a href=""
+              ><p class="grey">
+                <i class="fa-regular fa-share-from-square"></i> Telecharger
+              </p></a
+            >
+          </div>
+          <div class="stat-item">
+            <p class="stat">1.3K</p>
+            <a href=""
+              ><p class="grey">
+                <i class="fa-regular fa-heart"></i> Favoris
+              </p></a
+            >
+          </div>
+          <div class="stat-item">
+            <p class="stat">1.3K</p>
+            <a href=""
+              ><p class="grey">
+                <i class="fa-solid fa-people-group"></i> Abonnés
+              </p></a
+            >
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
-    
+    <header>
+      <h1>Tableau de Bord d'Informations</h1>
+    </header>
 
+    <div class="todo-container">
+      <ul class="todo-list">
+        <li class="task">
+          <div>
+            <input type="checkbox" class="task-checkbox" />
+            <span class="task-name"
+              ><img src="/Images/afri2.jpeg" alt=""
+            /></span>
+          </div>
+          <div class="button">
+            <p>carnaval</p>
+            <button class="edit-btn">
+              <i class="fa-solid fa-pen-to-square"></i> Modifier
+            </button>
+            <button class="delete-btn">
+              <i class="fa-solid fa-trash-can"></i> Supprimer
+            </button>
+            <button class="download-btn">
+              <i class="fa-solid fa-download"></i> Télécharger
+            </button>
+            <button class="active">En Cours...</button>
+          </div>
+        </li>
+        <li class="task">
+          <div>
+            <input type="checkbox" class="task-checkbox" />
+            <span class="task-name"
+              ><img src="/Images/afri2.jpeg" alt=""
+            /></span>
+          </div>
+          <div class="button">
+            <p>carnaval</p>
+            <button class="edit-btn">Modifier</button>
+            <button class="delete-btn">Supprimer</button>
+            <button class="download-btn">Télécharger</button>
+            <button class="active">En Cours...</button>
+          </div>
+        </li>
+        <li class="task">
+          <div>
+            <input type="checkbox" class="task-checkbox" />
+            <span class="task-name"
+              ><img src="/Images/afri2.jpeg" alt=""
+            /></span>
+          </div>
+          <div class="button">
+            <p>carnaval</p>
+            <button class="edit-btn">Modifier</button>
+            <button class="delete-btn">Supprimer</button>
+            <button class="download-btn">Télécharger</button>
+            <button class="active">En Cours...</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+      <div class="mesChamps">
+        <div class="services">
+          <h3>Partenariat</h3>
+          <ul>
+            <li><a href="https://www.netflix.com/ci/">* Netflix</a></li>
+            <li><a href="https://www.youtube.com/">* Youtube</a></li>
+            <li><a href="https://www.canalplus-afrique.com/">* Canal +</a></li>
+            <li><a href="https://www.aplusivoire.ci/">* A+Ivoire</a></li>
+          </ul>
+        </div>
+        <div class="services">
+          <h3>Nos Contes</h3>
+          <ul>
+            <li><a href="">* Africains</a></li>
+            <li><a href="">* Europeens</a></li>
+            <li><a href="">* Du monde</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Contactez-nous</h3>
+          <p>entrez votre message?</p>
+          <form action="#">
+            <input type="email" placeholder="Votre email" />
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <div class="social">
+        <p><i class="fab fa-google"></i></p>
+        <p><i class="fab fa-youtube"></i></p>
+        <p><i class="fab fa-facebook"></i></p>
+        <p><i class="fab fa-twitter"></i></p>
+      </div>
+      <p class="copy">&copy; 2023 Streaming. ZiNi_Vision.</p>
+    </footer>
+  </body>
 </html>
