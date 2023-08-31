@@ -26,7 +26,16 @@
           <input type="text" placeholder="Email address" required />
           <input type="password" placeholder="Password" required />
           <p>Aviez-vous un compte? <a href="./inscription.html">Créer un</a></p>
-          <button type="submit"><a href="./video.html">Connexion</a></button>
+          <label for="popup-toggle" class="open-popup-btn">Connexion</label>
+          <input type="checkbox" id="popup-toggle" class="popup-toggle" />
+          <div class="popup">
+            <div class="popup-content">
+              <p>Connecté Avec succès &#128077; &#128077;</p>
+              <label for="popup-toggle" class="close-popup-btn"
+                ><a href="/index.html">fermé</a></label
+              >
+            </div>
+          </div>
         </form>
       </div>
     </section>

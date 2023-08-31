@@ -16,11 +16,35 @@ body {
   width: 100%;
   z-index: -99;
   background-color: #c8c8c819;
-} */
-
-.container {
+}
+*/ .container {
   position: relative;
   width: 100%;
+}
+.navbar {
+  position: relative;
+  height: 11vh;
+}
+.menu img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  left: 55%;
+  margin-top: 15px;
+}
+
+.menu p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  color: #322e2f;
+  font-family: sans-serif;
 }
 
 .main {
@@ -138,7 +162,6 @@ body {
   .main.active {
     left: 300px;
   }
-  
 }
 
 @media (max-width: 768px) {
