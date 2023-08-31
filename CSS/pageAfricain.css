@@ -106,6 +106,7 @@ body {
 .grid-col h1 {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: sans-serif;
 }
 
 .grid-col span {

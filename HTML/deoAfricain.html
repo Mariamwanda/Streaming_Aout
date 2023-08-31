@@ -28,8 +28,8 @@
     </div>
     </nav>
     <h1>Instruis toi tout tant epanouissant&#128519 &#128519</h1>
-    <div class="section">
-      <div class="item">
+      <div class="section">
+        <div class="item">
          <video controls>
            <source src="./../Images/debut.mp4" type="video/mp4" />
          </video>
@@ -40,8 +40,10 @@
              <p>Telechargement</p>
            </div>
            <div class="iconBox">
-             <i class="fa-solid fa-thumbs-up"></i>
-             <p>122 j'aime</p>
+            <label >
+              <i class="fa-solid fa-download"></i>
+              <p>Telechargement</p>
+            </label>
            </div>
            <div class="iconBox">
              <i class="fa-solid fa-share-from-square"></i>
@@ -53,9 +55,8 @@
             qui partage votre vie,mais vous ne savez pas par où commencer pour <br>
             rédiger un texte mignon, un message d'amour touchant.
            </p>
-       </div>
-      
-     </div>
+          </div>
+        </div>
       <div class="item2">
        <video controls>
          <source src="./../Images/deo1.mp4" type="video/mp4" />
@@ -72,9 +73,20 @@
      </div>
     </div>
     <div class="page">
+      
       <h3>Commentaire Utilisateur</h3>
       <div class="comment-section">
-       
+        <label for="popup-toggle" class="open-popup-btn">Message</label>
+        <input type="checkbox" id="popup-toggle" class="popup-toggle" />
+    
+        <div class="popup">
+          <div class="popup-content">
+            <h2>Laissez un message</h2>
+            <input type="text" placeholder="name"><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+            <label for="popup-toggle" class="close-popup-btn">Envoyer</label>
+          </div>
+        </div>
         <div class="comment">
           <div class="avatar1"></div>
           <div class="comment-content">
@@ -83,6 +95,7 @@
           </div>
         </div>
         <div class="comment">
+          
           <div class="avatar2"></div>
           <div class="comment-content">
             <h2>Noelle Hacker</h2>
