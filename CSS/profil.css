@@ -81,14 +81,14 @@ h2 {
 .profile-top {
   height: 40vh;
   width: 100%;
-  background-image: url("/Images/profilFond.jpeg");
+  background-image: url("./../Images/profilFond.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
 }
 
 .profile-image {
-  background-image: url("/Images/homme.jpeg");
+  background-image: url("./../Images/homme.jpeg");
   background-position: center;
   background-size: cover;
   position: relative;
